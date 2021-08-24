@@ -6,6 +6,10 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 //Each entity bean will have a primary key, which you annotate on the class with the @Id annotation.
+
+/**
+ * ID Custom Annotation
+ */
 @Target(ElementType.FIELD)
 @Retention(RetentionPolicy.RUNTIME)
 public @interface Id {

@@ -6,6 +6,10 @@ import java.lang.annotation.ElementType;
 import java.lang.annotation.RetentionPolicy;
 
 //The @Table annotation allows you to specify the details of the table that will be used to persist the entity in the database.
+
+/**
+ * Table name custom annotation
+ */
 @Target(ElementType.TYPE)
 @Retention (RetentionPolicy.RUNTIME)
 public @interface Table {
